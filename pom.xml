@@ -347,13 +347,13 @@
 		<!-- Site to deploy documentation to. -->
 		<site>
 			<id>github-site</id>
-			<url>gitsite:git@github.com/khuxtable/wagon-gitsite.git</url>
+			<url>gitsite:git@github.com/eddies/wagon-gitsite.git</url>
 		</site>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git:git://github.com/khuxtable/wagon-gitsite.git</connection>
-		<developerConnection>scm:git:git@github.com:khuxtable/wagon-gitsite.git</developerConnection>
-		<url>http://github.com/khuxtable/wagon-gitsite</url>
+		<connection>scm:git:git://github.com/eddies/wagon-gitsite.git</connection>
+		<developerConnection>scm:git:git@github.com:eddies/wagon-gitsite.git</developerConnection>
+		<url>http://github.com/eddies/wagon-gitsite</url>
 	</scm>
 	<reporting>
 		<plugins>
