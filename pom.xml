@@ -327,10 +327,18 @@
 	</dependencyManagement>
 	<distributionManagement>
 		<!-- Site to deploy releases to. -->
+        <!-- 
 		<repository>
 			<id>ossrh</id>
 			<url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
+        -->
+        <!-- https://issues.sonatype.org/browse/OSSRH-2721 -->
+        <repository>
+            <id>duraspace-thirdparty</id>
+            <url>https://m2.duraspace.org/content/repositories/thirdparty</url>
+        </repository>
+         
 		<!-- Site to deploy snapshots to. -->
 		<snapshotRepository>
 			<id>ossrh</id>
